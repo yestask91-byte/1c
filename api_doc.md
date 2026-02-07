@@ -231,17 +231,3 @@ Example:
   "message": "rate limit exceeded"
 }
 ```
-
-## Configuration
-
-`config/config.yml`:
-
-```yml
-integration_1c:
-  app_key: "your_1c_app_key"
-  allowed_ips:
-    - "203.0.113.10"
-    - "203.0.113.11"
-  rate_limit_per_hour: 10
-  upstream_base_url: "https://upstream.example.com"
-```
