@@ -15,9 +15,6 @@ Each request must pass:
 
 `X-API-Key` source:
 
-1. `integration_1c.app_key` from `config.yml`
-2. If empty, fallback from DB table `integration_keys` where `app_name = '1C'`
-
 If key is invalid or IP is not allowed, API returns `401 Unauthorized`.
 
 ## Rate Limit
